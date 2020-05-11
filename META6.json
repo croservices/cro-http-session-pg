@@ -1,0 +1,23 @@
+{
+  "name": "Cro::HTTP::Session::Pg",
+  "description": "Cro session storage middleware using Postgres.",
+  "version": "0.1",
+  "perl": "6.*",
+  "auth": "Edument",
+  "depends": [
+    "Cro::HTTP",
+    "DB::Pg",
+    "JSON::Fast"
+  ],
+  "build-depends": [],
+  "test-depends": [
+    "Cro::HTTP::Test",
+    "Test::Mock"
+  ],
+  "provides": {
+    "Cro::HTTP::Session::Pg": "lib/Cro/HTTP/Session/Pg.pm6"
+  },
+  "resources": [],
+  "license": "Artistic-2.0",
+  "source-url": "https://github.com/croservices/cro-http-session-pg.git"
+}
